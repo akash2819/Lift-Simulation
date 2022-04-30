@@ -1,0 +1,4 @@
+
+    1.Data store that contains the state of your application data
+    2.JS Engine that is the controller for which lift goes where
+    3.Dumb UI that responds to controller's commands
