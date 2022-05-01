@@ -1,12 +1,22 @@
+html{
+    font-size: 1rem;
+}
 :root{
     /* --floor_height:25vh;          
     --floor_width:60vw; */
-    --floor_height:170px;          
+    --floor_height:180px;          
     --floor_width:70%;
 }
 body{
     background-color: #FDF4DC;
 }
+h1{
+    text-align: center;
+}
+.input_data{
+    text-align: center;
+}
+
 .floor{
     position: fixed;
     height: var(--floor_height);
@@ -30,9 +40,9 @@ body{
 /* lift part */
 .lift{
     position: relative;
-    border: solid 2px;
-    height: 140px;
-    width: 80px;
+    border: solid 0.14em;
+    height: 8.7em;
+    width: 5em;
     background-color: whitesmoke;
     z-index: 0;
     top: -10px;
@@ -40,18 +50,18 @@ body{
 }
 .lift_right_door{
     position: relative;
-    border: solid 1px;
-    height: 138px;
-    width: 40px;
+    border: solid 0.1em;
+    height: 8.6em;
+    width: 2.5em;
     background-color: #d3d3d3;
     z-index: 1;
     /* animation: right_door 2.5s infinite ; */
 }
 .lift_left_door{
     position: relative;
-    border: solid 1px;
-    height: 138px;
-    width: 40px;
+    border: solid 0.1em;
+    height: 8.6em;
+    width: 2.5em;
     left: 38px;
     bottom: 140px;
     background-color: #d3d3d3;
