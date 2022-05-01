@@ -50,18 +50,18 @@ h1{
 }
 .lift_right_door{
     position: relative;
-    border: solid 0.1em;
-    height: 8.6em;
-    width: 2.5em;
+    border: solid 1px;
+    height: 138px;
+    width: 40px;
     background-color: #d3d3d3;
     z-index: 1;
     /* animation: right_door 2.5s infinite ; */
 }
 .lift_left_door{
     position: relative;
-    border: solid 0.1em;
-    height: 8.6em;
-    width: 2.5em;
+    border: solid 1px;
+    height: 138px;
+    width: 40px;
     left: 38px;
     bottom: 140px;
     background-color: #d3d3d3;
